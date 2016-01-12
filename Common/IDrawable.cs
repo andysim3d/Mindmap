@@ -3,14 +3,15 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Drawing;
 
 namespace MindCore
 {
-    class Node : IDrawable
+    public interface IDrawable
     {
-        public void draw()
-        {
-            //TODO: 
-        }
+        /// <summary>
+        /// draw itself
+        /// </summary>
+        void draw(Graphics g);
     }
 }

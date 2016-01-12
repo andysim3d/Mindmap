@@ -1,16 +1,17 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace MindCore
 {
-    interface IDrawable
+    class Node : IDrawable
     {
-        /// <summary>
-        /// draw itself
-        /// </summary>
-        void draw();
+        public void draw(Graphics g)
+        {
+            //TODO: 
+        }
     }
 }
